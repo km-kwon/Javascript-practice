@@ -1,22 +1,10 @@
-const a = 5;
-const b = "2";
-const myName = "kyoungmin";
+var human = function(name, old, height){
+    this.name = name;
+    this.old = old;
+    this.height = height;
+}
 
-console.log(b);
-console.log("Hello "+myName);
-
-alert("clik");
-
+var kyoungmin = new human("kyoungmin", 23, 177);
 
 
-
-
-
-
-
-
-
-
-
-
-
+console.log(kyoungmin["name"]);
